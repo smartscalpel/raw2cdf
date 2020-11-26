@@ -1,7 +1,7 @@
-﻿<Application x:Class="DataSetExtractor.App"
+﻿<Application x:Class="Raw2CDF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DataSetExtractor"
+             xmlns:local="clr-namespace:Raw2CDF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

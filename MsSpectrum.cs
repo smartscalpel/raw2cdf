@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-
-namespace DataSetExtractor
+﻿
+namespace Raw2CDF
 {
     class MsSpectrum
     {

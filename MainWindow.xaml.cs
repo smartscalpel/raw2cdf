@@ -7,8 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Windows;
 using System.Windows.Threading;
-//using System.Windows.Shapes;
-using DataSetExtractor.Properties;
+using Raw2CDF.Properties;
 using Microsoft.Research.Science.Data;
 using Microsoft.Research.Science.Data.Factory;
 using Microsoft.Research.Science.Data.Imperative;
@@ -16,7 +15,7 @@ using MSFileReaderLib;
 using NLog;
 
 
-namespace DataSetExtractor
+namespace Raw2CDF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -312,7 +311,7 @@ namespace DataSetExtractor
         }
         private void AddMetadata(DataSet cdf)
         {
-            cdf.Metadata["created_by"] = "LIMP Data Extractor 1.0";
+            cdf.Metadata["created_by"] = "Raw2CDF 1.0";
             cdf.Metadata["netcdf_revision"] = "4.0.1.0";
             cdf.Metadata["source_file_format"] = "Finnigan";
             cdf.Metadata["netcdf_file_date_time_stamp"] = GetDateTimeFormatted(DateTime.Now);
