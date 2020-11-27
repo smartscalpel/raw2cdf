@@ -50,9 +50,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LIMPFileReader">
-      <HintPath>..\AnalyzeScan\out_bin\winform\LIMPFileReader.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Research.Science.Data, Version=1.2.6754.0, Culture=neutral, PublicKeyToken=e550de0161496f12, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ScientificDataSet\sln\CodePlexInstaller\Debug\bin\Microsoft.Research.Science.Data.dll</HintPath>
